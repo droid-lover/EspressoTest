@@ -1,4 +1,4 @@
-package com.jarvis.espressotest.first_test;
+package com.jarvis.espressotest.my_tests;
 
 import android.support.test.espresso.Espresso;
 import android.support.test.espresso.action.ViewActions;
@@ -14,7 +14,7 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 
 @RunWith(AndroidJUnit4.class)
-public class FirstTest {
+public class ButtonClickedTest {
 
     @Rule
     public ActivityTestRule<MainActivity> mainActivityActivityTestRule = new ActivityTestRule<>(MainActivity.class);

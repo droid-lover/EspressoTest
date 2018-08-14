@@ -1,4 +1,4 @@
-package com.jarvis.espressotest.notes;
+package com.jarvis.espressotest.my_tests;
 
 import android.support.test.espresso.Espresso;
 import android.support.test.espresso.action.ViewActions;
