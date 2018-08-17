@@ -1,4 +1,4 @@
 <resources>
     <string name="app_name">EspressoTest</string>
-    <string name="login_success">Welcome, Login is Successful</string>
+    <string name="welcome_success">Welcome, Task is Successful</string>
 </resources>

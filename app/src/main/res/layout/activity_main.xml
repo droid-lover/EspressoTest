@@ -15,7 +15,7 @@
         android:layout_weight="2"
         android:gravity="center"
         android:textSize="16sp"
-        android:text="@string/login_success" />
+        android:text="@string/welcome_success" />
 
     <Button
         android:id="@+id/button1"
