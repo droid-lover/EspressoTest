@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 import android.widget.Toast;
 
 /**
@@ -15,6 +16,7 @@ import android.widget.Toast;
  */
 public class MainActivity extends AppCompatActivity {
 
+    TextView tvLoginSuccess;
     Button button1, button2;
 
     @Override
@@ -26,6 +28,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void findViews() {
+        tvLoginSuccess = findViewById(R.id.tv_login_success);
         button1 = findViewById(R.id.button1);
         button2 = findViewById(R.id.button2);
 
