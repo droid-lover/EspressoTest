@@ -1,4 +1,4 @@
-package com.jarvis.espressotest.java.my_tests;
+package com.jarvis.espressotest.my_tests;
 
 import android.support.test.InstrumentationRegistry;
 import android.support.test.filters.LargeTest;
