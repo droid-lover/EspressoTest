@@ -46,4 +46,9 @@ public class LoginTest {
         String successValue = InstrumentationRegistry.getTargetContext().getString(R.string.welcome_success);
         onView(withText(successValue)).check(matches(isDisplayed()));
     }
+
+    @Test
+    public void buttonClicked(){
+        onView(withId(R.id.btn_login)).perform(click());
+    }
 }

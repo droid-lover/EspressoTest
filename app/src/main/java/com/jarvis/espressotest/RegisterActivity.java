@@ -39,10 +39,10 @@ public class RegisterActivity extends AppCompatActivity {
                     etName.setError("Please enter your Name");
                     return;
                 } else if (TextUtils.isEmpty(emailValue)) {
-                    etName.setError("Please enter your Email");
+                    etEmail.setError("Please enter your Email");
                     return;
                 } else if (TextUtils.isEmpty(passwordValue)) {
-                    etName.setError("Please enter your Password");
+                    etPassword.setError("Please enter your Password");
                     return;
                 } else {
                     Intent intent = new Intent(RegisterActivity.this,MainActivity.class);
