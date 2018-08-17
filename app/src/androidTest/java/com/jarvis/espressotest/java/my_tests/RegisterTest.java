@@ -1,7 +1,6 @@
-package com.jarvis.espressotest.my_tests;
+package com.jarvis.espressotest.java.my_tests;
 
 import android.support.test.InstrumentationRegistry;
-import android.support.test.espresso.assertion.ViewAssertions;
 import android.support.test.filters.LargeTest;
 import android.support.test.rule.ActivityTestRule;
 import android.support.test.runner.AndroidJUnit4;
